@@ -1,0 +1,28 @@
+.section__home {
+    @media screen and (min-width: 768px) {
+        padding: 0 30px 30px;
+    }
+}
+
+.section__logement {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    @media screen and (min-width:768px) {
+        display: flex;
+        column-count: 3;
+        background-color: $secondary-color;
+        margin-top: 20px;
+        border-radius: 25px
+    }
+}
+
+.thumb__logement {
+    width: calc(100% - 20px);
+
+    @media screen and (min-width: 768px) {
+        width: 340px;
+        padding: 0 20px;
+    }
+}
